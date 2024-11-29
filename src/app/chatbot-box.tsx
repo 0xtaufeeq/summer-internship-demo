@@ -50,7 +50,7 @@ export default function ChatbotBox() {
 
     const handleKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
         if (event.key === "Enter") {
-            event.preventDefault(); // Prevent the default action of the Enter key (like submitting a form)
+            event.preventDefault();
             handleSend();
         }
     };
